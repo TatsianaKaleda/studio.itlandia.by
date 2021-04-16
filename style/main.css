@@ -1,0 +1,519 @@
+/*HEADER*/
+.nav {
+    padding: 5px 0 5px;
+    background-color: #27263d;
+    justify-content: center;
+}
+
+.nav a {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.nav a:hover {
+    color: #8f8a8a;
+}
+
+.phone {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.phone svg {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.phone p {
+    display: inline-block;
+    font-size: 18px;
+}
+
+/*VIDEO*/
+.video {
+    position: relative;
+    top: 0px;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 320px;
+    height: auto;
+}
+
+.video-textbox {
+    z-index: 7690;
+    position: absolute;
+    top: 100px;
+    left: 14%;
+    right: 14%;
+    background-color: #27263d;
+    opacity: .6;
+    border: 3px solid white;
+}
+
+.video-title {
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 30px;
+    color: white;
+    text-align: center; 
+}
+.video-textbox ul {
+    margin: 16px 0;
+    padding: 0 0 0 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.video-textbox li{
+    font-size: 26px;
+    color: white;
+}
+
+.video-price {
+    text-align: center;
+}
+
+.video-price p {
+    font-size: 35px;
+    color: white;
+}
+
+/*TEXT*/
+.about {
+    margin: 0 auto;
+    padding: 2% 3%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #27263d;
+}
+
+.main-text span {
+    font-size: 22px;
+    color: #27263d;
+}
+
+.left-container {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-block {
+    margin: 2%;
+    text-align: justify;
+}
+
+.rb-title {
+    display: none;
+}
+
+.left-block ul {
+    font-size: 22px;
+    color: #27263d;
+}
+
+.right-container {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-block {
+    margin: 2%;
+    text-align: justify;
+}
+
+.right-block ul {
+    font-size: 22px;
+    color: #27263d;
+}
+
+/*GALERY*/
+.container {
+    padding-bottom: 30px;
+    width: 10%;
+    height: 10%;
+}
+.container h2 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #27263d;
+    text-align: center;
+}
+.container .carousel-item img{
+    width: 100%;
+}
+.container .carousel-control-prev-icon {
+    width: 25px;
+    height: 35px;
+}
+.container .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 25px;
+    height: 30px;
+}
+
+/*CALENDAR*/
+.calendar {
+    margin: 0 auto;
+    padding-bottom: 3%;
+}
+.calendar h2 {
+    padding: 2% 3%;
+    font-size: 40px;
+    color: #27263d;
+    text-align: center;
+}
+.google-calendar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*FOOTER*/
+.f-container {
+    margin: 0 auto;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #27263d;
+}
+
+.f-text {
+    font-size: 20px;
+    color: white;
+}
+
+.adress {
+    margin-top: 20px;
+}
+
+.adress svg {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.adress p {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.f-phone {
+    margin-top: 10px;
+}
+
+.f-phone svg {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.f-phone p {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.f-email {
+    margin-top: 10px;
+}
+
+.f-email svg {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.f-email p {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.other {
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.other img {
+    width: 35px;
+}
+
+@media screen and (max-width: 1172px) {
+   .nav {
+       justify-content: left;
+   }
+   .video-title {
+       font-size: 24px;
+   }
+   .video-textbox ul {
+       margin: 5px 0;
+   }
+   .video-textbox li {
+       font-size: 23px;
+   }
+   .video-price p {
+       font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 918px) {
+    .nav a {
+        font-size: 16px;
+    }
+    .phone {
+        right: 14px;
+        font-size: 14px;
+    }
+    .phone p {
+        font-size: 14px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .main-text span {
+        font-size: 18px;
+    }
+    .right-container img, .left-container img {
+        width: 40%;
+        height: 40%;
+    }
+    .right-container ul, .left-container ul {
+        font-size: 18px;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+    .calendar h2 {
+        font-size: 30px;
+    }
+    .google-calendar iframe {
+        width: 600px;
+        height: 400px;
+    }
+    
+    .f-text h3 {
+        font-size: 23px;
+        text-align: center;
+    }
+    .adress svg {
+        font-size: 23px;
+    }
+    .adress p {
+        font-size: 16px;
+    }
+    .f-phone svg {
+        font-size: 23px;
+    }
+    .f-phone p {
+        font-size: 16px;
+    }
+    .f-email svg {
+        font-size: 23px;
+    }
+    .f-email p {
+        font-size: 16px;
+    }
+    .other img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .nav {
+        padding-top: 30px;
+    }
+    .video-title {
+        font-size: 20px;
+    }
+    .video-textbox li {
+        font-size: 20px;
+    }
+    .video-price p {
+        font-size: 26px;
+    }
+    .main-text span {
+        font-size: 16px;
+    }
+    .right-container img, .left-container img {
+        width: 30%;
+        height: 30%;
+    }
+    .right-container ul, .left-container ul {
+        font-size: 16px;
+    }
+    .adress p {
+        padding-left: 0;
+    }
+    .f-phone p {
+        padding-left: 0;
+    }
+    .f-email p {
+        padding-left: 0;
+    }
+    .map iframe {
+        width: min-content;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .video-textbox ul {
+        list-style: none;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    .video-textbox {
+        top: 58px;
+    }
+    .video-textbox li {
+        font-size: 16px;
+    }
+    .google-calendar iframe {
+        width: 430px;
+        height: 300px;
+    }
+    .f-container {
+        display: block;
+        text-align: center;
+    }
+    .other {
+        display: inline-block;
+        margin: 5px auto;
+    }
+    .other a {
+        margin: 5px;
+    }
+    .f-phone, .f-email {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .nav {
+        padding-top: 0;
+    }
+    .phone {
+        top: 50px;
+    }
+    .left-container, .right-container {
+        display: inline-block;
+    }
+    .left-container img, .right-container img {
+        display: none;
+    }
+    .right-block {
+        text-align: unset;
+    }
+    .right-block .rb-title {
+        display: inline-block;
+        font-size: 22px;
+        color: #27263d;
+        text-align: center;
+    }
+    .right-block ul {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .video-textbox ul {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav {
+        padding-top: 30px;
+    }
+    .phone {
+        top: 12px;
+    }
+    .phone svg {
+        font-size: 17px;
+    }
+    .video-textbox {
+        top: 20px;
+    }
+    .video-textbox ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+    .google-calendar iframe {
+        width: 373px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .nav a {
+        padding: 5px 10px 5px 15px;
+    }
+    .video-title {
+        font-size: 16px;
+    }
+    .video-price p {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .title {
+        font-size: 25px;
+    }
+    .container h2 {
+        font-size: 25px;
+    }
+    .calendar h2 {
+        font-size: 25px;
+    }
+    .google-calendar iframe {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .video-textbox {
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .nav a {
+        font-size: 15px;
+    }
+    .video-textbox {
+        top: 2px;
+    }
+    .video-textbox li {
+        padding-left: 5px;
+    }
+    .video-title {
+        padding: 3px;
+    }
+    .video-price p {
+        font-size: 17px;
+    }
+    .calendar h2 {
+        font-size: 22px;
+    }
+    .google-calendar iframe {
+        width: 292px;
+    }
+    .f-text h3{
+        font-size: 20px;
+    }
+    .map iframe {
+        width: 290px;
+    }
+    .adress {
+        margin-top: 13px;
+    }
+}
